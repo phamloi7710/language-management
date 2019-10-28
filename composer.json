@@ -1,0 +1,27 @@
+{
+    "name": "loipham/language-management",
+    "description": "A Language Management For Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Phạm Lợi",
+            "email": "phamloi7710@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "LoiPham\\Language\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LoiPham\\Language\\LanguageServiceProvider",
+                "LoiPham\\Language\\TranslationServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
